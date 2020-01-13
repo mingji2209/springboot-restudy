@@ -1,0 +1,4 @@
+application:
+  loginUrl: /index.html
+  noFiltetUrl: /index
+  filterUrl: /*
