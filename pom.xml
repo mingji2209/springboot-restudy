@@ -10,6 +10,7 @@
         <module>springboot-jpa</module>
         <module>springboot-annotation-ssm</module>
         <module>springboot-security</module>
+        <module>springboot-other-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
