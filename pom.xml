@@ -11,6 +11,9 @@
         <module>springboot-annotation-ssm</module>
         <module>springboot-security</module>
         <module>springboot-other-demo</module>
+        <module>cfx-webservice-service</module>
+        <module>cfx-webservice-client</module>
+        <module>springboot-jdk8</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
