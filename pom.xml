@@ -14,6 +14,7 @@
         <module>cfx-webservice-service</module>
         <module>cfx-webservice-client</module>
         <module>springboot-jdk8</module>
+        <module>springboot-redis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
