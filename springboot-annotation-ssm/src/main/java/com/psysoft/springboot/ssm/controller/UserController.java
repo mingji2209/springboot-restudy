@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping(value = "/user")
 public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/query")
+    @RequestMapping(value = "/query",produces = "application/json; charset=utf-8")
     public User testQuery() {
-        return userService.selectUserByName("Daisy");
+        return userService.selectUserByName("Mic");
     }
 
     @RequestMapping("/insert")

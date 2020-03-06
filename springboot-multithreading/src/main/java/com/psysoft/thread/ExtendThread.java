@@ -1,5 +1,6 @@
 package com.psysoft.thread;
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -17,6 +18,7 @@ public class ExtendThread extends Thread {
 
 
     }
+
 
     @Override
     public void run() {

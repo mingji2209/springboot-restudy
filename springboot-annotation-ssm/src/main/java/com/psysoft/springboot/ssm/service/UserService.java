@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -35,6 +37,8 @@ public class UserService {
     public void insertService() {
         userDao.insertUser("SnailClimb", 22, 3000.0);
         userDao.insertUser("Daisy", 19, 3000.0);
+
+        userDao.insertUser2("Mic", 22, 3000.0,"XXXXXX");
     }
 
     /**

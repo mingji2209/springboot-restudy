@@ -3,6 +3,7 @@ package com.psysoft.springboot.ssm.dao;
 import com.psysoft.springboot.ssm.domain.User;
 import org.apache.ibatis.annotations.*;
 
+import java.util.Date;
 import java.util.List;
 
 @Mapper
@@ -26,6 +27,9 @@ public interface UserDao {
      */
     @Insert("insert into user(name,age,money) values(#{name}, #{age}, #{money})")
     void insertUser(@Param("name") String name,@Param("age") Integer age,@Param("money") double money);
+
+    @Insert("insert into user(name,age,money,remark) values(#{name}, #{age}, #{money},#{remark})")
+    void insertUser2(@Param("name") String name, @Param("age") Integer age, @Param("money") double money, @Param("remark") String remark);
 
 
     /**
